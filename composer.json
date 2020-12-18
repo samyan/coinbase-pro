@@ -1,0 +1,28 @@
+{
+    "name": "samyan/coinbase-pro",
+    "description": "Coinbase Pro client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel Petrosyan",
+            "email": "spetrosyan@codeblock.pro"
+        }
+    ],
+    "keywords": [
+		"coinbase",
+		"crypto",
+		"currency",
+		"client"
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"php": ">=7.0",
+        "guzzlehttp/guzzle": "^7.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Samyan\\": "src/"
+		}
+	}
+}
